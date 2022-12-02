@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(205, 216, 247);
+}
+#heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+#input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px;
+}
+#box{
+    width: 50%;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 500;
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+}
+#add-btn{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: 400;
+    background-color: rgb(108, 108, 250);
+    color: white;
+}
+#add-priority-btn{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+}
+#delete-all-btn{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: 400;
+    background-color: tomato;
+    color: white;
+}
+#showItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.todo-item{
+    font-size: 20px;
+    font-weight: 500;
+}
+.complete-btn{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: 400;
+    background-color:rgb(108, 108, 250);
+    color: white;
+}
+.delete-btn{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: 400;
+    background-color: tomato;
+    color: white;
+}
